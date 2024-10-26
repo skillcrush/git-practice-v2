@@ -18,40 +18,41 @@
 
 
 body {
-    font-size: 18px;
-    padding: 1em;
-    margin: 0 auto;
-    background: #aaaacc;
+  font-size: 18px;
+  padding: 1em;
+  margin: 0 auto;
+  background: #aaaacc;
 
 }
 
 h1 {
-    font-size: 2.2rem;
-    font-family: Courier New, Courier, monospace;
-    font-weight: bold;
-    color: #333;
-    margin-top: 1em;
-    padding-bottom: 1em;
+  font-size: 2.2rem;
+  font-family: Courier New, Courier, monospace;
+  font-weight: bold;
+  color: #333;
+  margin-top: 1em;
+  padding-bottom: 1em;
 }
 
 h4 {
-    margin-top: 1.5em;
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: #bb433d;
+  margin-top: 1.5em;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #bb433d;
 }
 
 a {
-    text-decoration: none;
-    color: #bb433d;
+  text-decoration: none;
+  color: #bb433d;
 }
 
-header, footer {
-    margin-top: 1em;
-    padding-top: 1em;
+header,
+footer {
+  margin-top: 1em;
+  padding-top: 1em;
 }
 
-.container  {
+.container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -76,12 +77,25 @@ header, footer {
 }
 
 @keyframes typing {
-  from {width: 0}
-  to {width: 100%}
+  from {
+    width: 0
+  }
+
+  to {
+    width: 100%
+  }
 }
 
 @keyframes blinking {
-  0% {border-right-color: transparent}
-  50% {border-right-color: var(--cursor-color)}
-  100% {border-right-color: transparent}
+  0% {
+    border-right-color: transparent
+  }
+
+  50% {
+    border-right-color: var(--cursor-color)
+  }
+
+  100% {
+    border-right-color: transparent
+  }
 }
