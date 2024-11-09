@@ -1,0 +1,43 @@
+body {
+    background: lightpink;
+    background-size: cover;
+    background-position: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+    text-align: center;
+}
+
+.advice {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+#turtle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+}
+
+#bunny {
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+}
+
+#beagle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+}
+
+#sloth {
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+}
+
+#cat {
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+}
