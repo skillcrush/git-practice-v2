@@ -31,11 +31,16 @@ a:active {
 }
 
 /****** Header Styles ******/
+
 .homepage-hero {
-    background: url('../img/up-the-cherry-blossom-road.jpg') #f9efef;
+    Background: center #f9efef;
     background-size: cover;
-    background-position: center;
-    height: 800px;
+    width: 1920px;
+    height: auto;
+    margin: 0 auto;
+    overflow: auto;
+ 
+    overflow: auto;
 }
 
 header h1 {
@@ -44,8 +49,8 @@ header h1 {
     font-family: 'Lora', serif;
     font-size: 72px;
     line-height: 92px;
-    color: #E6E6E6;
-    padding: 430px 0 0px 25px;
+    color: #666699;
+    padding: 0px 0 0px 25px;
 }
 
 header h2 {
@@ -54,13 +59,14 @@ header h2 {
     font-family: 'Lora', serif;
     font-size: 72px;
     line-height: 25px;
-    color: #E6E6E6;
+    color: #666699;
     padding: 0px 0 0px 600px;
 }
 
 div .back-link {
     float: right;
     margin-right: 0 50px 0 0;
+    clear: both;
 }
 
 /****** Advice Styles ******/
@@ -109,18 +115,12 @@ div .back-link {
 /****** Footer Styles ******/
 
 #footer {
-    background: url("../img/cherry blossoms_pink washed.png") #f9e9e9;
+    background: #f9e9e9;
     opacity: .5;
 }
 
 #footer .content-wrapper {
     padding: 110px 0;
-}
-
-#footer .footer-image {
-
-    width: 600px;
-    height: auto;
 }
 
 #footer p {
