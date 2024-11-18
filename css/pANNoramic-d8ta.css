@@ -1,0 +1,180 @@
+/****** Global Styles ******/
+body {
+  font-size: 20px;
+  font-family: "Tomorrow", serif;
+  width: 1200px;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+.content-wrapper {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+/* unvisited link */
+a:link {
+  color: black;
+}
+
+/* visited link */
+a:visited {
+  color: #fcaf58;
+}
+
+/* mouse over link */
+a:hover {
+  color: black;
+}
+
+/* selected link */
+a:active {
+  color: black;
+}
+
+/****** Header Styles ******/
+.homepage-hero {
+  background: center #fcaf58;
+  background-size: cover;
+  width: 1200px;
+  margin: 0 auto;
+  overflow: auto;
+  opacity: 0.95;
+}
+
+/****** greeting Styles ******/
+#greeting .content-wrapper {
+  padding: 10px 0;
+}
+
+div .back-link {
+  float: right;
+  margin: 0 0 20px 0;
+}
+
+h1 {
+  font-family: "Sixtyfour Convergence", sans-serif;
+  padding: 5 0 0 25px;
+  text-align: center;
+  font-weight: 800;
+  border-bottom: solid #fda642;
+  clear: both;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+/****** Advice Styles ******/
+#advice {
+  background: #F5F5F5;
+  text-align: center;
+}
+
+#advice .content-wrapper {
+  padding: 115px 0;
+}
+
+#advice .advice-list {
+  float: left;
+  width: 300px;
+  padding: 0 45px;
+  border: 2.5px solid #ffffff;
+}
+
+#green-panda {
+  padding-top: 10px;
+}
+
+#yellow-panda {
+  padding-top: 10px;
+}
+
+#orange-panda-icon {
+  padding-top: 10px;
+}
+
+#advice H3 {
+  font-size: 24px;
+  line-height: 36px;
+  margin: 30px 0 20px 0;
+}
+
+#advice p {
+  font-size: 20px;
+  line-height: 40px;
+  text-align: left;
+}
+
+/****** Footer Styles ******/
+#contact {
+  background: #fda642;
+}
+
+#contact .content-wrapper {
+  padding: 110px 0;
+}
+
+#contact .contact-image {
+  float: left;
+  width: 600px;
+}
+
+#contact #contact-img {
+  width: 500px;
+  height: 300px;
+  border: 8px solid #ffffff;
+  margin: 0 50px;
+  box-sizing: border-box;
+}
+
+#contact .contact-info {
+  float: left;
+  width: 600px;
+  padding-left: 100px;
+  box-sizing: border-box;
+}
+
+#contact h2 {
+  font-family: "Tomorrow", serif;
+  font-size: 36px;
+  font-weight: 600;
+  margin: 30px 0;
+}
+
+ul li a .slack-icon {
+  float: left;
+}
+
+ul li a .github-icon {
+  float: left;
+}
+
+#contact ul {
+  margin-top: 0;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+#contact ul img {
+  padding-left: 40px;
+}
+
+#contact p {
+  font-size: smaller;
+  margin-top: 207px;
+}
+
+@media (min-width: 768px) {
+
+  html,
+  body {
+    height: 100%;
+  }
+}
+
+@media (min-width: 1200px) {
+
+  body {
+    height: 100%;
+  }
+}
