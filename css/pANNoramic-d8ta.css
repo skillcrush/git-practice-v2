@@ -2,8 +2,9 @@
 body {
   font-size: 20px;
   font-family: "Tomorrow", serif;
+  width: 1200px;
   margin: 0 auto;
-  box-sizing: border-box;
+  overflow: auto;
 }
 
 .content-wrapper {
@@ -34,10 +35,11 @@ a:active {
 
 /****** Header Styles ******/
 .homepage-hero {
-  background: url("../images/sugar-maple-trees-in-fall.jpg") #fcaf58;
-  background-size: auto;
-  background-position: center;
-  height: 500px;
+  background: center #fcaf58;
+  background-size: cover;
+  width: 1200px;
+  margin: 0 auto;
+  overflow: auto;
   opacity: 0.95;
 }
 
@@ -79,7 +81,15 @@ h1 {
   border: 2.5px solid #ffffff;
 }
 
-#advice .panda-icon {
+#green-panda {
+  padding-top: 10px;
+}
+
+#yellow-panda {
+  padding-top: 10px;
+}
+
+#orange-panda-icon {
   padding-top: 10px;
 }
 
@@ -131,11 +141,11 @@ h1 {
   margin: 30px 0;
 }
 
-ul li a .github-icon {
+ul li a .slack-icon {
   float: left;
 }
 
-ul li a .slack-icon {
+ul li a .github-icon {
   float: left;
 }
 
@@ -152,4 +162,19 @@ ul li a .slack-icon {
 #contact p {
   font-size: smaller;
   margin-top: 207px;
+}
+
+@media (min-width: 768px) {
+
+  html,
+  body {
+    height: 100%;
+  }
+}
+
+@media (min-width: 1200px) {
+
+  body {
+    height: 100%;
+  }
 }
