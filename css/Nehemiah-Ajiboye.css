@@ -1,0 +1,40 @@
+/***Global Styles***/
+body{
+    width: 1200px;
+    color: #622f14;
+    font-family: "Passion", serif;
+    font-size: 20px;
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2qkQpfdOAo-ZKLJAcNoMEfH4UpcMDSUq2kA&s") black no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto; 
+    text-align: left;
+}
+
+/***Header Styles***/
+h1{
+    text-align: center;
+}
+
+span{
+    font-family: "Rubik Dirt", serif;
+    font-weight: 400;
+}
+
+h4{
+    font-size: 30px;
+    font-family: "Rubik Dirt", serif;
+    font-weight: 400;
+}
+
+/***Paragraph Styles***/
+div p{
+    background-color: #D7B37C;
+    border-radius: 5px;
+}
+
+/***Footer Styles***/
+footer p{
+    font-family: "Rubik Dirt", serif;
+    font-weight: 400;
+}
