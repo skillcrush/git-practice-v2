@@ -1,0 +1,21 @@
+/*GLOBAL STYLES */
+body {
+    font-family: "Roboto", serif;
+}
+
+
+header {
+    background: lightblue;
+}
+
+body {
+    background: url("https://images.pexels.com/photos/1323550/pexels-photo-1323550.jpeg?cs=srgb&d1=pexels-simon-berger-1323550.jpg&fm=jpg") repeat #e1efe1;
+    background-size: cover;
+    background-position: center;
+} 
+
+h1 {
+    color: #28476b;
+    text-align: center;
+    font-family: "Montserrat", serif;
+}
