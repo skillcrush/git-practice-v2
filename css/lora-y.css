@@ -1,0 +1,37 @@
+/** Body Styles***/
+body {
+    background: rgb(244, 209, 244);
+    font-family: "Meow Script", serif;
+    width: 600px;
+
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h4 {
+    font-size: 36px;
+    text-align: center;
+}
+
+p {
+    font-size: 32px;
+}
+
+/**  Image styles **/
+img {
+    border: 10px solid black;
+
+
+}
+
+.image-container {
+    text-align: center;
+}
+
+/**  Footer styles  **/
+footer p {
+    font-family: serif;
+    font-size: 12px;
+}
