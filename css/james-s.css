@@ -1,0 +1,27 @@
+body {
+    background-color:aquamarine;
+}
+
+section {
+    margin-top: 30px;
+}
+
+footer {
+    margin-top: 30px;
+}
+h1,
+h4,
+p {
+    text-align: center;
+    color: darkblue;
+}
+
+
+h1,
+h4 {
+    font-family: "Anta", sans-serif;
+}
+
+p {
+    font-family: "Urbanist", sans-serif;
+}
