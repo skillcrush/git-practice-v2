@@ -1,0 +1,95 @@
+body {
+  color: #2e2e2e;
+  font-size: 16px;
+  font-family: "Poppins", "Helvetica Neue", sans-serif;
+  margin: 0 auto;
+  background: #faf9f7;
+  max-width: 800px;
+  line-height: 1.6;
+  padding: 0 1.5em;
+}
+
+.hero {
+  text-align: center;
+  padding: 5em 1.5em 4em;
+  background: linear-gradient(180deg, #fff8f5 0%, #faf9f7 100%);
+  border-radius: 1.5em;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  margin-top: 2em;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  top: -50px;
+  right: -50px;
+  width: 150px;
+  height: 150px;
+  background: #f8d7da;
+  opacity: 0.3;
+  border-radius: 50%;
+  z-index: 0;
+}
+
+.hero::after {
+  content: "";
+  position: absolute;
+  bottom: -50px;
+  left: -50px;
+  width: 120px;
+  height: 120px;
+  background: #9e7b9b;
+  opacity: 0.25;
+  border-radius: 50%;
+  z-index: 0;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+}
+
+h1 {
+  font-size: 2.25em;
+  color: #c97c5d;
+  margin-top: 1em;
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  letter-spacing: 0.5px;
+}
+
+h1 span {
+  font-family: "Dancing Script", cursive;
+  color: #9e7b9b;
+  font-weight: 500;
+}
+
+h4 {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #9e7b9b;
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  margin-bottom: 25px;
+}
+
+a {
+  text-decoration: none;
+  color: #c97c5d;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #9e7b9b;
+}
+
+footer {
+  text-align: center;
+  padding-top: 1em;
+  font-size: 0.9em;
+  color: #6b6b6b;
+  border-top: 1px solid #eadbd2;
+  margin-top: 2em;
+}
