@@ -1,0 +1,55 @@
+/****** BASE STYLES ******/
+
+body {
+    background-image: url('../img/Background.png');
+    background-size: cover;
+    width: 850px;
+    height: 2000px;
+    background-color: #0B3C5D; /* fallback blue */
+}
+
+h1 {
+    font-family: 'Fredoka', sans-serif;
+    font-size: 48px;
+    color: white;
+    text-shadow: 3px 3px 0 #6b3e26;
+    line-height: 1.1;
+}
+
+.advice-panel {
+    margin: 0 auto;
+    padding: 150px;
+    text-align: center;
+}
+
+.advice-item h4 {
+    font-family: "Fredoka", sans-serif;
+    color: white;
+    font-size: 28px;
+    margin-bottom: 12px;
+    padding-bottom: 25px;
+}
+
+.advice-item p {
+    font-family: "Inter", sans-serif;
+    color: white;
+    font-size: 18px;
+    line-height: 1.6;
+    padding-bottom: 50px;
+}
+
+/****** FOOTER STYLES******/
+
+footer {
+    font-family: "Inter", sans-serif;
+    color: white;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.jolly-wishes {
+    font-family: 'Fredoka', sans-serif;
+    font-size: 38px;
+    color: white;
+    text-shadow: 3px 3px 0 #6b3e26;
+}
