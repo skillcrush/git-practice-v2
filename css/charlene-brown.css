@@ -1,0 +1,187 @@
+/***** BASE STYLES *****/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 32px 20px;
+  background-color: #ffffff;
+  color: #222222;
+}
+
+h1,
+h4 {
+  font-family: "Barlow", sans-serif;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin: 0 0 32px;
+}
+
+h1 .name {
+  color: #006666;
+}
+
+h4 {
+  font-size: 1.5rem;
+  margin: 32px 0 16px;
+}
+
+p {
+  font-family: "Economica", sans-serif;
+  font-size: 1.375rem;
+  line-height: 1.6;
+  margin: 0 0 20px;
+}
+
+
+
+/* MAGAZINE LAYOUT */
+
+body.skillcrush-advice {
+  max-width: 1100px;
+  padding: 24px;
+}
+
+.skillcrush-advice header > a {
+  display: inline-block;
+  margin: 24px 0;
+  color: #006666;
+  font-family: "Barlow", sans-serif;
+  text-decoration: none;
+}
+
+.skillcrush-advice header > a:hover {
+  text-decoration: underline;
+}
+
+.skillcrush-advice header h1 {
+  font-size: clamp(2.25rem, 5vw, 3.6rem);
+  font-weight: 700;
+  line-height: 1.08;
+  letter-spacing: -0.035em;
+  text-align: left;
+  margin: 0 0 40px;
+}
+
+.skillcrush-advice .advice {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 48px;
+}
+
+.skillcrush-advice .advice-column + .advice-column {
+  border-left: 1px solid #d6d6d6;
+  padding-left: 32px;
+}
+
+.skillcrush-advice .advice-column > h4:first-child {
+  margin-top: 0;
+}
+
+/* ONLY THE COPYRIGHT GETS THIS FONT SIZE */
+
+.skillcrush-advice footer {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.skillcrush-advice footer .copyright {
+  font-size: 0.9rem;
+}
+
+/* TICKER */
+
+.advice-ticker {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 10px 14px;
+  margin-bottom: 1.4rem;
+  background-color: #ededed;
+  border-top: 1px solid #c43131;
+  border-bottom: 1px solid #c43131;
+  overflow: hidden;
+}
+
+.ticker-window {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+}
+
+.ticker-track {
+  display: flex;
+  width: max-content;
+  animation: advice-scroll 25s linear infinite;
+}
+
+.ticker-copy {
+  flex-shrink: 0;
+  padding-right: 64px;
+  font-family: "Barlow", sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.ticker-dot {
+  color: #b88b05;
+  padding: 0 12px;
+}
+
+.ticker-toggle {
+  padding: 6px;
+  border: 0;
+  background: transparent;
+  color: #222222;
+  font-family: "Barlow", sans-serif;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+@keyframes advice-scroll {
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+/* STACK COLUMNS ON SMALLER SCREENS */
+
+@media (max-width: 700px) {
+  .skillcrush-advice .advice {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .skillcrush-advice .advice-column + .advice-column {
+    border-left: 0;
+    padding-left: 0;
+  }
+}
+
+/* KEEP THE TICKER STILL WHEN REDUCED MOTION IS REQUESTED */
+
+@media (prefers-reduced-motion: reduce) {
+  .ticker-track {
+    animation: none;
+    width: auto;
+  }
+
+  .ticker-copy {
+    white-space: normal;
+    padding-right: 0;
+  }
+
+  .ticker-copy[aria-hidden="true"] {
+    display: none;
+  }
+}
