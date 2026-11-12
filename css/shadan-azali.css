@@ -1,0 +1,14 @@
+/* Custom styles for Shadan's advice page */
+.shadan-advice {
+  background-color: #fdf6f0;
+}
+
+.shadan-advice h1 {
+  color: #7b2cbf;
+}
+
+.shadan-advice .advice h4 {
+  color: #1d70b8;
+  border-left: 4px solid #f4a261;
+  padding-left: 10px;
+}
